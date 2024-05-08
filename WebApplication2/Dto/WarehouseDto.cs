@@ -9,7 +9,10 @@ public class RegisterProductInWarehouseRequestDTO
     
     [Required]
     public int? IdWarehouse { get; set; }
+    [Required] 
+    public int? amount { get; set; }
     
     [Required]
     public DateTime? CreatedAt { get; set; }
 }
+
